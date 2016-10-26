@@ -12,7 +12,7 @@ final class PhabricatorSpringAuthProvider
     $callback_uri = PhabricatorEnv::getURI($this->getLoginURI());
 
     return pht(
-      "To configure OAuth, create a new application here with a clientId and clientSecret".
+      "To configure OAuth, create a new application in your auth server with a clientId and clientSecret".
       "\n\n".
       "You should use these settings in your application:".
       "\n\n".
